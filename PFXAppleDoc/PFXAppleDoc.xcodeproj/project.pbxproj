@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		D2D255AC1C72B40300D81FB0 /* Documentation */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D2D255AD1C72B40300D81FB0 /* Build configuration list for PBXAggregateTarget "Documentation" */;
+			buildPhases = (
+				D2D255B01C72B40700D81FB0 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = Documentation;
+			productName = Documentation;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		D2D255A51C72B3F100D81FB0 /* PFXAppleDoc.h in Headers */ = {isa = PBXBuildFile; fileRef = D2D255A41C72B3F100D81FB0 /* PFXAppleDoc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2D255B71C72B4DB00D81FB0 /* ImagePerform.h in Headers */ = {isa = PBXBuildFile; fileRef = D2D255B51C72B4DB00D81FB0 /* ImagePerform.h */; };
+		D2D255B81C72B4DB00D81FB0 /* ImagePerform.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D255B61C72B4DB00D81FB0 /* ImagePerform.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D2D255A11C72B3F100D81FB0 /* PFXAppleDoc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PFXAppleDoc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2D255A41C72B3F100D81FB0 /* PFXAppleDoc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFXAppleDoc.h; sourceTree = "<group>"; };
+		D2D255A61C72B3F100D81FB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2D255B51C72B4DB00D81FB0 /* ImagePerform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagePerform.h; sourceTree = "<group>"; };
+		D2D255B61C72B4DB00D81FB0 /* ImagePerform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagePerform.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2D2559D1C72B3F100D81FB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2D255971C72B3F100D81FB0 = {
+			isa = PBXGroup;
+			children = (
+				D2D255A31C72B3F100D81FB0 /* PFXAppleDoc */,
+				D2D255A21C72B3F100D81FB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2D255A21C72B3F100D81FB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2D255A11C72B3F100D81FB0 /* PFXAppleDoc.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2D255A31C72B3F100D81FB0 /* PFXAppleDoc */ = {
+			isa = PBXGroup;
+			children = (
+				D2D255A41C72B3F100D81FB0 /* PFXAppleDoc.h */,
+				D2D255A61C72B3F100D81FB0 /* Info.plist */,
+				D2D255B51C72B4DB00D81FB0 /* ImagePerform.h */,
+				D2D255B61C72B4DB00D81FB0 /* ImagePerform.m */,
+			);
+			path = PFXAppleDoc;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2D2559E1C72B3F100D81FB0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2D255A51C72B3F100D81FB0 /* PFXAppleDoc.h in Headers */,
+				D2D255B71C72B4DB00D81FB0 /* ImagePerform.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2D255A01C72B3F100D81FB0 /* PFXAppleDoc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2D255A91C72B3F100D81FB0 /* Build configuration list for PBXNativeTarget "PFXAppleDoc" */;
+			buildPhases = (
+				D2D2559C1C72B3F100D81FB0 /* Sources */,
+				D2D2559D1C72B3F100D81FB0 /* Frameworks */,
+				D2D2559E1C72B3F100D81FB0 /* Headers */,
+				D2D2559F1C72B3F100D81FB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PFXAppleDoc;
+			productName = PFXAppleDoc;
+			productReference = D2D255A11C72B3F100D81FB0 /* PFXAppleDoc.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2D255981C72B3F100D81FB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = succorer;
+				TargetAttributes = {
+					D2D255A01C72B3F100D81FB0 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					D2D255AC1C72B40300D81FB0 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = D2D2559B1C72B3F100D81FB0 /* Build configuration list for PBXProject "PFXAppleDoc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D2D255971C72B3F100D81FB0;
+			productRefGroup = D2D255A21C72B3F100D81FB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2D255A01C72B3F100D81FB0 /* PFXAppleDoc */,
+				D2D255AC1C72B40300D81FB0 /* Documentation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2D2559F1C72B3F100D81FB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D2D255B01C72B40700D81FB0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#appledoc Xcode script\n# Start constants\n\ncompany=\"PFXStudio\";\ncompanyID=\"com.pfxstudio\";\ncompanyURL=\"http://pfxstudio.modoo.at/\";\ntarget=\"iphoneos\";\noutputPath=\"${PRODUCT_NAME}/Documentation\";\n# End constants\n/usr/local/bin/appledoc \\\n--verbose 3 \\\n--project-name \"${PROJECT_NAME}\" \\\n--project-company \"${company}\" \\\n--company-id \"${companyID}\" \\\n--docset-atom-filename \"${company}.atom\" \\\n--docset-feed-url \"${companyURL}/${company}/%DOCSETATOMFILENAME\" \\\n--docset-package-url \"${companyURL}/${company}/%DOCSETPACKAGEFILENAME\" \\\n--docset-fallback-url \"${companyURL}/${company}\" \\\n--output \"${outputPath}\" \\\n--publish-docset \\\n--docset-platform-family \"${target}\" \\\n--logformat xcode \\\n--keep-intermediate-files \\\n--no-repeat-first-par \\\n--no-warn-invalid-crossref \\\n--exit-threshold 2 \\\n\"${PROJECT_DIR}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2D2559C1C72B3F100D81FB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2D255B81C72B4DB00D81FB0 /* ImagePerform.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D2D255A71C72B3F100D81FB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D2D255A81C72B3F100D81FB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D2D255AA1C72B3F100D81FB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = PFXAppleDoc/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pfxstudio.PFXAppleDoc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D2D255AB1C72B3F100D81FB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = PFXAppleDoc/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pfxstudio.PFXAppleDoc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D2D255AE1C72B40300D81FB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D2D255AF1C72B40300D81FB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2D2559B1C72B3F100D81FB0 /* Build configuration list for PBXProject "PFXAppleDoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2D255A71C72B3F100D81FB0 /* Debug */,
+				D2D255A81C72B3F100D81FB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2D255A91C72B3F100D81FB0 /* Build configuration list for PBXNativeTarget "PFXAppleDoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2D255AA1C72B3F100D81FB0 /* Debug */,
+				D2D255AB1C72B3F100D81FB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D2D255AD1C72B40300D81FB0 /* Build configuration list for PBXAggregateTarget "Documentation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2D255AE1C72B40300D81FB0 /* Debug */,
+				D2D255AF1C72B40300D81FB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2D255981C72B3F100D81FB0 /* Project object */;
+}
